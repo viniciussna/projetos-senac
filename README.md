@@ -1,6 +1,6 @@
 # Projetos SENAC 🏫
 
-Repositório com todas as atividades e projetos do curso de Análise e Desenvolvimento de Sistemas (AD) no SENAC.  
+Repositório com todas as atividades e projetos do curso de Análise e Desenvolvimento de Sistemas (ADS) no SENAC.  
 Organizado por tipo de atividade:
 
 - **aulas-coding/** – Exercícios e códigos das aulas de programação.  
