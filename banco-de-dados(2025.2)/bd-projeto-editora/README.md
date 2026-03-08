@@ -73,7 +73,7 @@ Também foram criadas **views para representar relatórios importantes**, facili
 📦 `editora_projeto_bd.zip`  
 Arquivo contendo todos os scripts SQL do projeto (DDL, DML, DQL e views).
 
-📄 `documentacao_projeto_editora.pdf`  
+📄 `documentacao_projeto_editora.docx`  
 Documento contendo:
 
 - descrição detalhada do mini-mundo  
