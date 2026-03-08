@@ -11,7 +11,7 @@ Esta atividade foi realizada em grupo e consiste no desenvolvimento do **Projeto
 ### prototipo/
 Contém todas as telas do protótipo do PI, incluindo fluxo de navegação, wireframes e design responsivo.
 
-### banco-dados/
+### banco-de-dados/
 Contém diagramas, scripts SQL e exportações do banco de dados utilizadas no projeto.
 
 ## Observações
