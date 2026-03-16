@@ -3,11 +3,15 @@
 
 Aplicação web simples e responsiva desenvolvida com **HTML, CSS e JavaScript** que consome dados de uma **API pública de Pokémon** e exibe as informações de forma amigável ao usuário, com prioridade para **visualização em dispositivos mobile**.
 
+---
+
 ## 🚀 Deploy
 
 A aplicação está disponível online através do Netlify:
 
-🔗 https://api-pokemon-aula.netlify.app
+🔗 https://projeto-pokemon-coding-mobile.netlify.app
+
+---
 
 ## 📌 Objetivo da Atividade
 
@@ -19,12 +23,16 @@ Desenvolver um aplicativo web que:
 - Priorize a **experiência mobile**
 - Seja **publicado online**
 
+---
+
 ## 🛠️ Tecnologias Utilizadas
 
 - **HTML5** – Estrutura da aplicação  
 - **CSS3** – Estilização e responsividade  
 - **JavaScript (Vanilla)** – Consumo da API e manipulação do DOM  
 - **Netlify** – Deploy da aplicação  
+
+---
 
 ## 🌐 API Utilizada
 
@@ -38,6 +46,8 @@ A API fornece informações sobre Pokémon como:
 - ID  
 - Outras informações disponíveis na API  
 
+---
+
 ## 📱 Responsividade
 
 O layout foi desenvolvido com **prioridade mobile (Mobile First)**, garantindo boa experiência em:
@@ -45,6 +55,8 @@ O layout foi desenvolvido com **prioridade mobile (Mobile First)**, garantindo b
 - Smartphones 📱  
 - Tablets 📲  
 - Desktop 💻  
+
+---
 
 ## 📂 Arquivos do Projeto
 
@@ -58,7 +70,9 @@ Dentro deste arquivo estão incluídos:
 - `style.css` – Estilização da interface  
 - `script.js` – Lógica da aplicação e consumo da API  
 
-Para executar o projeto localmente:
+---
+
+## ▶️ Como executar o projeto localmente
 
 1. Baixe o arquivo **APIPKM.zip**
 2. Extraia os arquivos
