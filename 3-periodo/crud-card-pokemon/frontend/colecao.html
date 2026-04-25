@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+  <meta name="theme-color" content="#cc0000">
+  <link rel="manifest" href="manifest.json">
+  <title>CardPokemon – Coleção</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Nunito:wght@400;600;800&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <div class="app-wrapper colecao-page">
+    <header class="app-header">
+      <div class="header-pokeball">
+        <div class="pb-top"></div><div class="pb-band"></div>
+        <div class="pb-bottom"></div><div class="pb-button"></div>
+      </div>
+      <h1 class="app-title">Minha <span>Coleção</span></h1>
+      <button class="btn-icon-header" id="btn-reload" title="Atualizar">↻</button>
+    </header>
+
+    <!-- Abas de categoria -->
+    <div class="tabs">
+      <button class="tab active" data-rating="all">Todos</button>
+      <button class="tab" data-rating="time_favorito">⭐ Time</button>
+      <button class="tab" data-rating="pokedex">🔵 Pokédex</button>
+      <button class="tab" data-rating="deixa_escapar">❌ Escapou</button>
+    </div>
+
+    <main class="colecao-main">
+      <div id="grid" class="pokemon-grid">
+        <p class="grid-empty">Carregando...</p>
+      </div>
+    </main>
+
+    <!-- Modal -->
+    <div id="modal" class="modal hidden">
+      <div class="modal-box">
+        <img id="modal-img" src="" alt="" class="modal-img">
+        <h3 id="modal-name"></h3>
+        <p id="modal-id" class="modal-sub"></p>
+        <div id="modal-types" class="modal-types"></div>
+
+        <p class="modal-label">Mover para:</p>
+        <div class="modal-ratings">
+          <button class="rate-btn btn-escapar"  onclick="moverPara('deixa_escapar')">❌ Deixa escapar</button>
+          <button class="rate-btn btn-pokedex"  onclick="moverPara('pokedex')">🔵 Pokédex</button>
+          <button class="rate-btn btn-time"     onclick="moverPara('time_favorito')">⭐ Time favorito</button>
+        </div>
+        <div class="modal-actions">
+          <button class="rate-btn btn-excluir"  onclick="excluir()">🗑 Remover da coleção</button>
+          <button class="rate-btn btn-cancelar" onclick="fecharModal()">Cancelar</button>
+        </div>
+      </div>
+    </div>
+
+    <footer class="app-footer colecao-footer">
+      <button class="btn-nav" onclick="window.location.href='index.html'">← Voltar</button>
+    </footer>
+  </div>
+
+  <script src="colecao.js"></script>
+</body>
+</html>
